@@ -1,0 +1,165 @@
+* {
+  margin: 0;
+  padding:0;
+  font-family: 'Montserrat', sans-serif,'Poppins', sans-serif,'Roboto', sans-serif;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  width: 100%;
+  height: 80px;
+  background-color:#ffffff;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #f6f6f6;
+}
+
+.myntra-logo img {
+  height: 40px;
+}
+
+.logo-container {
+  margin-left: 3%;
+}
+
+.link-bar {
+  display:flex ;
+  min-width: 500px;
+  justify-content: space-evenly;
+}
+.link-bar a {
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 30px 0;
+  border-bottom: 3px solid #ffffff;
+}
+
+.link-bar a:hover {
+  border-bottom: 3px solid rgb(238, 97, 144);
+}
+.link-bar a sup {
+  color: red;
+  font-size: 10px;
+}
+
+.search-bar {
+  height: 40px;
+  min-width: 200px;
+  width: 30%;
+  display: flex;
+  align-items: center;
+}
+.search-icon {
+     height: 20px;
+     box-sizing: content-box;
+     padding: 10px;
+     background-color: #f5f5f6;
+     color: #282c3f;
+     border-radius: 5px 0 0 5px;
+     cursor: pointer;
+}
+.search-input {
+  color: #696e79;
+  background-color: #f5f5f6;
+  flex-grow: 1;
+  height: 40px;
+  border: none;
+  border-radius:0 5px  5px 0;
+}
+.action-bar {
+  display: flex;
+  min-width: 200px;
+  justify-content: space-evenly;
+}
+.action-container {
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+  justify-content: space-evenly;
+  cursor: pointer;
+}
+
+
+/* main container start */
+.banner-container {
+  padding: 40px 0;
+}
+.banner-image {
+  width: 100%;
+}
+.category-heading {
+  text-transform: uppercase;
+  color: #3e4152;
+  letter-spacing: .15em;
+  font-size: 1.8em;
+  margin: 50px 0 10px 30px;
+  max-height: 5em;
+  font-weight: 700;
+}
+
+.category-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.category-items2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.category-itemfirst{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.sale-item {
+  width: 250px;
+}
+
+/* footer part */
+.footer-container {
+  padding: 30px 0px 40px 0px;
+  background: #fafbfc;
+  display: flex;
+  justify-content: space-evenly;
+}
+.footer-column{
+  display: flex;
+  flex-direction: column;
+}
+.footer-column :nth-child(1){
+  color:#282c3f ;
+  font-size: 14px;
+  margin-bottom: 25px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.footer-column a {
+  color: #696b79;
+  font-size: 15px;
+  text-decoration: none;
+  padding-bottom: 5px;
+}
+
+.copyright {
+  color: #94969f;
+  text-align:end;
+  padding: 35px;
+  display: flex;
+  justify-content: space-between;
+}
+.copyright-left  a {
+  text-decoration: none;
+} 
+.copyright-left {
+  color:#282c3f;
+  text-align: start;
+}
+.copyright-right {
+  color:#282c3f;
+  text-align: end;
+}
